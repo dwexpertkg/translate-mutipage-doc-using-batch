@@ -14,13 +14,10 @@ For simplicity we assumed the following.
 
 In order for us to build this solution we need to do the following.
 
-* [Create an Amazon SageMaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-quick-start.html) 
-
-OR
-
 * [Create a SageMaker Notebook Instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html)
-
 * Upload Notebook, [Japanese_to_English_Translation.ipynb](notebooks/Japanese_to_English_Translation.ipynb).
+OR 
+* You can also view via [nbviewer](https://nbviewer.jupyter.org/) link, [Japanese_to_English_Translation.ipynb](https://nbviewer.jupyter.org/github/dwexpertkg/translate-mutipage-doc-using-batch/blob/main/notebooks/Japanese_to_English_Translation.ipynb)
 * Run through all the steps in sequence in the notebook to
     * Create IAM Policies and Roles, S3 bucket, install packages
     * Upload pdf / docx documents to translate from local machine
